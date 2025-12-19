@@ -1,0 +1,2 @@
+/give @p sw_factions:base_core
+/give Braden300 sw_factions:base_core

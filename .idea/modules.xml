@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SW_FACTIONS.client.iml" filepath="$PROJECT_DIR$/.idea/modules/SW_FACTIONS.client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SW_FACTIONS.main.iml" filepath="$PROJECT_DIR$/.idea/modules/SW_FACTIONS.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SW_FACTIONS.test.iml" filepath="$PROJECT_DIR$/.idea/modules/SW_FACTIONS.test.iml" />
+    </modules>
+  </component>
+</project>

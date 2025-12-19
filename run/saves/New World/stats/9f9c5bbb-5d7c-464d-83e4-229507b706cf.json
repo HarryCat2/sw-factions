@@ -1,0 +1,21 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "sw_factions:base_core": 3
+    },
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 1613,
+      "minecraft:time_since_rest": 3221,
+      "minecraft:walk_one_cm": 1269,
+      "minecraft:total_world_time": 3321,
+      "minecraft:leave_game": 4,
+      "minecraft:fly_one_cm": 6401,
+      "minecraft:crouch_one_cm": 7,
+      "minecraft:sneak_time": 37,
+      "minecraft:play_time": 3221,
+      "minecraft:jump": 27,
+      "minecraft:time_since_death": 3221
+    }
+  },
+  "DataVersion": 4671
+}

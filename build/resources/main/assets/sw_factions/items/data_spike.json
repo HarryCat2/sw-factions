@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model":"sw_factions:item/data_spike"
+  }
+}
