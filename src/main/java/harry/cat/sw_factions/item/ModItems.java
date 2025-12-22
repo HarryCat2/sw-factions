@@ -26,8 +26,8 @@ public class ModItems {
 
     private static Item registerItem(String name, Function<Item.Properties, Item> itemFactory, Item.Properties settings) {
         Identifier id = Identifier.fromNamespaceAndPath(Sw_factions.MOD_ID, name);
-        Item item = itemFactory.apply(settings); // DO NOT try to set an ID on properties
-        return Registry.register(BuiltInRegistries.ITEM, id, item); // ID is assigned here
+        Item item = itemFactory.apply(settings);
+        return Registry.register(BuiltInRegistries.ITEM, id, item);
     }
 
     public static void registerItems() {

@@ -7,6 +7,8 @@ import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.state.BlockState;
 import org.jspecify.annotations.Nullable;
 
+// Starter Core Block, Declare territory
+
 public class BaseCoreBlock extends BaseEntityBlock {
     protected BaseCoreBlock(Properties properties) {
         super(properties);
@@ -21,4 +23,9 @@ public class BaseCoreBlock extends BaseEntityBlock {
     public @Nullable BlockEntity newBlockEntity(BlockPos blockPos, BlockState blockState) {
         return null;
     }
+
+
+
+
+
 }
