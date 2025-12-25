@@ -11,11 +11,12 @@ import net.minecraft.world.item.Item;
 
 import java.util.function.Function;
 
+import static harry.cat.sw_factions.Sw_factions.MOD_ID;
 import static net.fabricmc.fabric.api.command.v2.EntitySelectorOptionRegistry.register;
 
 public class ModItems {
 
-    public static final Item DATA_SPIKE = registerItem(
+    public static final Item DATA_SPIKE = register(
             "data_spike",
             DataSpikeItem::new,
             new Item.Properties()
@@ -24,10 +25,11 @@ public class ModItems {
 
 
 
-    private static Item registerItem(String name, Function<Item.Properties, Item> itemFactory, Item.Properties settings) {
-        Identifier id = Identifier.fromNamespaceAndPath(Sw_factions.MOD_ID, name);
-        Item item = itemFactory.apply(settings);
-        return Registry.register(BuiltInRegistries.ITEM, id, item);
+    public static <GenericItem extends Item> GenericItem register(String name, Function<Item.Properties, GenericItem> itemFactory, Item.Properties settings) {
+        ResourceKey<Item> itemKey = ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(MOD_ID, name));
+        GenericItem item = itemFactory.apply(settings.setId(itemKey));
+        Registry.register(BuiltInRegistries.ITEM, itemKey, item);
+        return item;
     }
 
     public static void registerItems() {

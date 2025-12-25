@@ -31,6 +31,17 @@ public class ModBlocks {
             true
     );
 
+    // BASE BLOCKS
+
+
+    public static final Block DATA_TERMINAL_BLOCK = register(
+            "data_terminal",
+            DataTerminalBlock::new,
+            BlockBehaviour.Properties.of().sound(SoundType.COPPER_GOLEM_STATUE),
+            true
+    );
+
+
     // TURRET BLOCKS
     public static final Block TURRET_BASE_BLOCK = register(
             "turret_base",
@@ -39,8 +50,8 @@ public class ModBlocks {
             true
     );
 
-    public static final Block TURRET_COMPUTER = register(
-            "turret_computer",
+    public static final Block TURRET_HEIGHT_BLOCK = register(
+            "turret_height_block",
             Block::new,
             BlockBehaviour.Properties.of().sound(SoundType.COPPER_BULB),
             true

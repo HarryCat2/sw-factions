@@ -6,3 +6,5 @@
 /give Braden300 sw_factions:turret_computer
 /give Braden300 sw_factions:turret_head
 /give Braden300 sw_factions:turret_barrel
+/give Braden300 sw_factions:data_spike
+/give Braden300 sw_factions:data_terminal

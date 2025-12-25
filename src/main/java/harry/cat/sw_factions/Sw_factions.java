@@ -11,7 +11,7 @@ public class Sw_factions implements ModInitializer {
     @Override
     public void onInitialize() {
         ModBlocks.initialize();
-        //ModItems.registerItems();
+        ModItems.registerItems();
         ModItemGroups.RegisterItemGroup();
 
     }

@@ -35,11 +35,13 @@ public class ModItemGroups {
 
             // TURRET BLOCKS
             itemGroup.accept(ModBlocks.TURRET_BASE_BLOCK);
-            itemGroup.accept(ModBlocks.TURRET_COMPUTER);
+            itemGroup.accept(ModBlocks.TURRET_HEIGHT_BLOCK);
             itemGroup.accept(ModBlocks.TURRET_HEAD);
             itemGroup.accept(ModBlocks.TURRET_BARREL);
+            itemGroup.accept(ModItems.DATA_SPIKE);
 
         });
+
     }
 
 }

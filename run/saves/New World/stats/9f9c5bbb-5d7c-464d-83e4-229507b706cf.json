@@ -1,17 +1,17 @@
 {
   "stats": {
     "minecraft:custom": {
-      "minecraft:sprint_one_cm": 1751,
-      "minecraft:time_since_rest": 11860,
-      "minecraft:walk_one_cm": 3140,
-      "minecraft:total_world_time": 12349,
-      "minecraft:leave_game": 11,
-      "minecraft:fly_one_cm": 8511,
-      "minecraft:crouch_one_cm": 35,
-      "minecraft:play_time": 11860,
-      "minecraft:sneak_time": 56,
-      "minecraft:jump": 50,
-      "minecraft:time_since_death": 11860
+      "minecraft:sprint_one_cm": 20495,
+      "minecraft:time_since_rest": 24042,
+      "minecraft:walk_one_cm": 25793,
+      "minecraft:total_world_time": 317761,
+      "minecraft:leave_game": 23,
+      "minecraft:fly_one_cm": 61202,
+      "minecraft:crouch_one_cm": 254,
+      "minecraft:play_time": 24042,
+      "minecraft:sneak_time": 385,
+      "minecraft:jump": 272,
+      "minecraft:time_since_death": 24042
     },
     "minecraft:used": {
       "minecraft:diamond_block": 2,
@@ -31,8 +31,7 @@
       "minecraft:red_nether_bricks": 2,
       "minecraft:obsidian": 2,
       "minecraft:jack_o_lantern": 1,
-      "minecraft:sand": 2,
-      "sw_factions:turret_computer": 2,
+      "minecraft:sand": 5,
       "minecraft:waxed_exposed_copper_bulb": 2,
       "sw_factions:turret_barrel": 11,
       "sw_factions:base_core": 3,
@@ -44,6 +43,7 @@
       "sw_factions:turret_head": 10,
       "minecraft:raw_iron_block": 1,
       "minecraft:amethyst_block": 2,
+      "sw_factions:data_terminal": 19,
       "minecraft:target": 1,
       "minecraft:end_stone_brick_wall": 1,
       "minecraft:pointed_dripstone": 2

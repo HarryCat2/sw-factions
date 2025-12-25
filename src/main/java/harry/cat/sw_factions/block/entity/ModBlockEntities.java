@@ -18,6 +18,11 @@ public class ModBlockEntities {
             register("core", BaseCoreBlockEntity::new,
                     ModBlocks.BASE_CORE_BLOCK);
 
+    public static final BlockEntityType<DataTerminalBlockEntity> DATA_TERMINAL_BLOCK_ENTITY =
+            register("data_terminal", DataTerminalBlockEntity::new,
+                    ModBlocks.DATA_TERMINAL_BLOCK);
+
+
     public static <T extends BlockEntity> BlockEntityType<T> register(
             String name,
             FabricBlockEntityTypeBuilder.Factory<? extends T> entityFactory,
