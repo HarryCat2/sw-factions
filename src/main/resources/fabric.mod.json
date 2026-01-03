@@ -13,9 +13,13 @@
 
   "environment": "*",
   "entrypoints": {
-    "fabric-datagen": ["harry.cat.sw_factions.client.Sw_factionsDataGenerator"],
-    "client": ["harry.cat.sw_factions.client.Sw_factionsClient"],
-    "main": ["harry.cat.sw_factions.Sw_factions"]
+    "fabric-datagen": [
+		"harry.cat.sw_factions.client.SwFactionsDataGenerator"
+	],
+    "client": [
+		"harry.cat.sw_factions.client.SwFactionsClient"
+	],
+    "main": ["harry.cat.sw_factions.SwFactions"]
   },
 
   "mixins": [
