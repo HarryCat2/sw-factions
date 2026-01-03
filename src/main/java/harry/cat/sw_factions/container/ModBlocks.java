@@ -1,7 +1,9 @@
-package harry.cat.sw_factions.block;
+package harry.cat.sw_factions.container;
 
+import harry.cat.sw_factions.SwFactions;
 import harry.cat.sw_factions.Sw_factions;
-import harry.cat.sw_factions.block.entity.BaseCoreBlockEntity;
+import harry.cat.sw_factions.block.BaseCoreBlock;
+import harry.cat.sw_factions.block.DataTerminalBlock;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
@@ -25,20 +27,20 @@ public class ModBlocks {
 
     // BASE CORE BLOCK
     public static final Block BASE_CORE_BLOCK = register(
-            "base_core",
-            BaseCoreBlock::new,
-            BlockBehaviour.Properties.of().sound(SoundType.GRASS),
-            true
+		    "base_core",
+		    BaseCoreBlock::new,
+		    BlockBehaviour.Properties.of().sound(SoundType.GRASS),
+		    true
     );
 
     // BASE BLOCKS
 
 
     public static final Block DATA_TERMINAL_BLOCK = register(
-            "data_terminal",
-            DataTerminalBlock::new,
-            BlockBehaviour.Properties.of().sound(SoundType.COPPER_GOLEM_STATUE),
-            true
+		    "data_terminal",
+		    DataTerminalBlock::new,
+		    BlockBehaviour.Properties.of().sound(SoundType.COPPER_GOLEM_STATUE),
+		    true
     );
 
 
@@ -71,7 +73,7 @@ public class ModBlocks {
             true
     );
 
-    private static Block register(String name, Function<BlockBehaviour.Properties, Block> blockFactory, BlockBehaviour.Properties settings, boolean shouldRegisterItem) {
+    private static <T extends Block>Block register(String name, Function<BlockBehaviour.Properties, Block> blockFactory, BlockBehaviour.Properties settings, boolean shouldRegisterItem) {
         ResourceKey<Block> blockKey = keyOfBlock(name);
         Block block = blockFactory.apply(settings.setId(blockKey));
 
@@ -85,11 +87,11 @@ public class ModBlocks {
     }
 
     private static ResourceKey<Block> keyOfBlock(String name) {
-        return ResourceKey.create(Registries.BLOCK, Identifier.fromNamespaceAndPath(MOD_ID, name));
+        return ResourceKey.create(Registries.BLOCK, Identifier.fromNamespaceAndPath(SwFactions.MOD_ID, name));
     }
 
     private static ResourceKey<Item> keyOfItem(String name) {
-        return ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(Sw_factions.MOD_ID, name));
+        return ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(SwFactions.MOD_ID, name));
     }
 
     public static void initialize() {

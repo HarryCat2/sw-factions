@@ -1,6 +1,6 @@
-package harry.cat.sw_factions.item;
+package harry.cat.sw_factions.container;
 
-import harry.cat.sw_factions.Sw_factions;
+import harry.cat.sw_factions.item.DataSpikeItem;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 
@@ -12,14 +12,13 @@ import net.minecraft.world.item.Item;
 import java.util.function.Function;
 
 import static harry.cat.sw_factions.Sw_factions.MOD_ID;
-import static net.fabricmc.fabric.api.command.v2.EntitySelectorOptionRegistry.register;
 
 public class ModItems {
 
     public static final Item DATA_SPIKE = register(
-            "data_spike",
-            DataSpikeItem::new,
-            new Item.Properties()
+		    "data_spike",
+		    DataSpikeItem::new,
+		    new Item.Properties()
     );
 
 

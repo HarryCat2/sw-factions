@@ -1,7 +1,8 @@
-package harry.cat.sw_factions.block.entity;
+package harry.cat.sw_factions.container;
 
 import harry.cat.sw_factions.Sw_factions;
-import harry.cat.sw_factions.block.ModBlocks;
+import harry.cat.sw_factions.block.entity.BaseCoreBlockEntity;
+import harry.cat.sw_factions.block.entity.DataTerminalBlockEntity;
 import net.fabricmc.fabric.api.object.builder.v1.block.entity.FabricBlockEntityTypeBuilder;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;

@@ -10,7 +10,7 @@ import org.jspecify.annotations.Nullable;
 // Starter Core Block, Declare territory
 
 public class BaseCoreBlock extends BaseEntityBlock {
-    protected BaseCoreBlock(Properties properties) {
+    public BaseCoreBlock(Properties properties) {
         super(properties);
     }
 

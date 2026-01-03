@@ -1,8 +1,6 @@
-package harry.cat.sw_factions.item;
+package harry.cat.sw_factions.container;
 
 import harry.cat.sw_factions.Sw_factions;
-import harry.cat.sw_factions.block.ModBlocks;
-import harry.cat.sw_factions.block.entity.ModBlockEntities;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.core.Registry;
@@ -11,7 +9,6 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.resources.Identifier;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 
 public class ModItemGroups {
