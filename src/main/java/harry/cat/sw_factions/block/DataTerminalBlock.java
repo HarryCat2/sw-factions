@@ -13,11 +13,6 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.BlockHitResult;
 
-import java.util.concurrent.Executor;
-import java.util.concurrent.ScheduledExecutorService;
-import java.util.concurrent.TimeUnit;
-
-
 public class DataTerminalBlock extends Block {
 
 
@@ -35,8 +30,7 @@ public class DataTerminalBlock extends Block {
         public void onEndTick(MinecraftServer server) {
             if (--this.ticksUntilSomething == 0L) {
 
-                // If you want to repeat this, reset ticksUntilSomething here.
-
+                // If you want to repeat this, reset ticksUntilSomething here
 
             }
         }

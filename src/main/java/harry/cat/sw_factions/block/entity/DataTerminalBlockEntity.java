@@ -19,15 +19,17 @@ public class DataTerminalBlockEntity extends BlockEntity {
     private int maxProgress = 72;
 
     public void tick(Level level, BlockPos pos, BlockState state) {
-        if() {
-
-        } else {
-            resetProgress();
-        }
+//        if() {
+//
+//        } else {
+//            resetProgress();
+//        }
     }
     private void resetProgress() {
         this.progress = 0;
         this.maxProgress = 3;
+
+         
     }
 
 }

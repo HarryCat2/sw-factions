@@ -14,5 +14,7 @@ public class Sw_factions implements ModInitializer {
         ModItems.registerItems();
         ModItemGroups.RegisterItemGroup();
 
+
+
     }
 }
