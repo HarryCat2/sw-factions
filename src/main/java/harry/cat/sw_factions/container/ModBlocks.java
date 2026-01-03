@@ -1,7 +1,6 @@
 package harry.cat.sw_factions.container;
 
 import harry.cat.sw_factions.SwFactions;
-import harry.cat.sw_factions.Sw_factions;
 import harry.cat.sw_factions.block.BaseCoreBlock;
 import harry.cat.sw_factions.block.DataTerminalBlock;
 import net.minecraft.core.Registry;
@@ -20,8 +19,6 @@ import net.minecraft.world.level.block.state.BlockBehaviour;
 
 
 import java.util.function.Function;
-
-import static harry.cat.sw_factions.Sw_factions.MOD_ID;
 
 public class ModBlocks {
 

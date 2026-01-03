@@ -1,6 +1,6 @@
 package harry.cat.sw_factions.container;
 
-import harry.cat.sw_factions.Sw_factions;
+import harry.cat.sw_factions.SwFactions;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.core.Registry;
@@ -14,7 +14,7 @@ import net.minecraft.world.item.ItemStack;
 public class ModItemGroups {
     public static final ResourceKey<CreativeModeTab> CUSTOM_ITEM_GROUP_KEY = ResourceKey
             .create(BuiltInRegistries.CREATIVE_MODE_TAB.key(),
-                    Identifier.fromNamespaceAndPath(Sw_factions.MOD_ID, "item_group"
+                    Identifier.fromNamespaceAndPath(SwFactions.MOD_ID, "item_group"
                     ));
 
     public static final CreativeModeTab CUSTOM_ITEM_GROUP = FabricItemGroup.builder()
